@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">USTA</string>
+    <string name="station_list">%1$s - %2$s</string>
+    <string name="formatted_money_value">Rp %1$s</string>
+    <string name="today_date">%1$d %2$s %3$d</string>
+    <string name="imsak_time">04:12</string>
+    <string name="shubuh_time">04:22</string>
+    <string name="dzuhur_time">11:38</string>
+    <string name="ashar_time">14:59</string>
+    <string name="maghrib_time">17:31</string>
+    <string name="isya_time">18:44</string>
+    <string name="ticket_class_seat">%1$s (%2$s)</string>
+</resources>

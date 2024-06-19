@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="38dp"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="76dp"
+        android:src="@drawable/usta_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login to your account"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/orange"
+            android:textSize="16dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@drawable/button_shadow"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/usernameLoginInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:hint="Username"
+            app:hintEnabled="true"
+            android:textColorHint="@color/black"
+            android:gravity="center"
+            app:boxStrokeWidth="0dp"
+            android:background="@drawable/button_white"
+            android:layout_marginRight="10dp"
+            app:boxBackgroundColor="@android:color/transparent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/usernameLoginInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@drawable/button_shadow"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordLoginInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:hint="Password"
+            app:hintEnabled="true"
+            android:textColorHint="@color/black"
+            android:gravity="center"
+            app:boxStrokeWidth="0dp"
+            android:background="@drawable/button_white"
+            android:layout_marginRight="10dp"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/orange"
+            app:boxBackgroundColor="@android:color/transparent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordLoginInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:backgroundTint="@color/orange"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or sign in with"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/orange"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/google"
+            android:background="@drawable/button_white"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook"
+            android:background="@drawable/button_white"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/microsoft"
+            android:background="@drawable/button_white"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/dark_blue"
+        android:textSize="14dp" />
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/dark_blue"
+        android:textSize="14dp" />
+
+</LinearLayout>
