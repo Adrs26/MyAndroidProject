@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guessing Number</string>
+    <string name="stage">Stage %1$d</string>
+    <string name="hint1_1">Tebakan lebih kecil dan sangat mendekati bilangan tersebut</string>
+    <string name="hint1_2">Tebakan lebih besar dan sangat mendekati bilangan tersebut</string>
+    <string name="hint2_1">Tebakan lebih kecil dan mendekati bilangan tersebut</string>
+    <string name="hint2_2">Tebakan lebih besar dan mendekati bilangan tersebut</string>
+    <string name="hint3_1">Tebakan terlalu kecil</string>
+    <string name="hint3_2">Tebakan terlalu besar</string>
+    <string name="finalScoreTemplate">: %1$s</string>
+</resources>

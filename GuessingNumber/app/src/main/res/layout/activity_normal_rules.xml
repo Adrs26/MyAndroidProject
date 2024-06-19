@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EasyRules"
+    android:background="@color/lightblue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal Mode"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:background="@drawable/button3"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peraturan Permainan"
+                android:gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Anda akan menebak angka dari rentang 1 - 150"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Anda diberikan batasan untuk menebak sebanyak 7 kali di setiap stage nya"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Terdapat lima stage pada mode ini"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Anda akan diberikan petunjuk setelah menebak apabila tebakan anda salah"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Terdapat tiga macam petunjuk pada mode ini yaitu tebakan terlalu rendah / tinggi, tebakan lebih rendah / tinggi dan mendekati, dan tebakan lebih rendah / tinggi dan sangat mendekati"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Semakin sedikit percobaan anda dalam menebak, semakin besar skor yang dihasilkan"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"/>
+
+            <Button
+                android:id="@+id/startNormalModeButton"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="235dp"
+                android:text="Mulai Permainan"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_bold"
+                android:backgroundTint="@color/lightblue"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

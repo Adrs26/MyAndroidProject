@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start"
+    android:padding="38dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center"
+        android:text="Guess the Number"
+        android:textSize="27sp"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan username"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="5dp"/>
+    
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameInputLayout"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Username"
+        app:counterEnabled="true"
+        app:counterMaxLength="15">
+        
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/usernameInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="15"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/easyModeButton"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Easy"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
+        android:backgroundTint="@color/lightblue"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/normalModeButton"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Normal"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
+        android:backgroundTint="@color/lightblue"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/hardModeButton"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hard"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
+        android:backgroundTint="@color/lightblue"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/leaderboardButton"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Leaderboard"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_bold"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
